@@ -1,3 +1,5 @@
+package ru.netology.javaqamvn7.services;
+
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import ru.netology.javaqamvn7.services.StatsService;
