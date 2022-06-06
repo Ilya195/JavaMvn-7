@@ -43,10 +43,9 @@ public class StatsService {
         int sum = 0;
         for (int element : sales)
             sum += element;
-            int average = sum / 12;
+        int average = sum / 12;
 
-            return average;
-
+        return average;
     }
 
 
@@ -63,7 +62,6 @@ public class StatsService {
     }
 
 
-
     public int maxSalesMonths(int[] sales) {
         int arraySaleMonth = 15;
         int months = 0;
@@ -75,7 +73,6 @@ public class StatsService {
         }
         return months;
     }
-
 }
 
 
