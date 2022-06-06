@@ -8,14 +8,14 @@ public class StatsServiceTest {
 
     @Test
     public void minSalesMonth() {
-    StatsService service = new StatsService();
+        StatsService service = new StatsService();
 
-    int[] sales = {8, 15, 13, 15, 17, 20, 19, 20, 7, 14, 14, 18};
+        int[] sales = {8, 15, 13, 15, 17, 20, 19, 20, 7, 14, 14, 18};
 
-    int expected = 9;
-        int actual = service.minSales (sales);
+        int expected = 9;
+        int actual = service.minSales(sales);
 
-        Assertions.assertEquals(expected,actual);
+        Assertions.assertEquals(expected, actual);
     }
 
     @Test
@@ -27,31 +27,32 @@ public class StatsServiceTest {
         int expectedMonth = 8;
         int actualMonth = service.maxSales(sales);
 
-        Assertions.assertEquals(expectedMonth,actualMonth);
+        Assertions.assertEquals(expectedMonth, actualMonth);
     }
-   @Test
-    public void getSumSales(){
-       StatsService service = new StatsService();
 
-       int[] sales = {8, 15, 13, 15, 17, 20, 19, 20, 7, 14, 14, 18};
+    @Test
+    public void getSumSales() {
+        StatsService service = new StatsService();
 
-       int expectedSum = 180;
-       int actualSum = service.GetSumSales(sales);
+        int[] sales = {8, 15, 13, 15, 17, 20, 19, 20, 7, 14, 14, 18};
 
-       Assertions.assertEquals(expectedSum,actualSum);
-   }
+        int expectedSum = 180;
+        int actualSum = service.getSumSales(sales);
 
-   @Test
-    public  void findSumUsingStream(){
-       StatsService service = new StatsService();
+        Assertions.assertEquals(expectedSum, actualSum);
+    }
 
-       int[] sales = {8, 15, 13, 15, 17, 20, 19, 20, 7, 14, 14, 18};
+    @Test
+    public void findSumUsingStream() {
+        StatsService service = new StatsService();
 
-       int expectedSum = 15;
-       int actualSum = service.findSumUsingStream(sales);
+        int[] sales = {8, 15, 13, 15, 17, 20, 19, 20, 7, 14, 14, 18};
 
-       Assertions.assertEquals(expectedSum,actualSum);
-   }
+        int expectedSum = 15;
+        int actualSum = service.findSumUsingStream(sales);
+
+        Assertions.assertEquals(expectedSum, actualSum);
+    }
 
 
     @Test
@@ -61,9 +62,9 @@ public class StatsServiceTest {
         int[] sales = {8, 15, 13, 15, 17, 20, 19, 20, 7, 14, 14, 18};
 
         int expected = 5;
-        int actual = service.minSalesMonths (sales);
+        int actual = service.minSalesMonths(sales);
 
-        Assertions.assertEquals(expected,actual);
+        Assertions.assertEquals(expected, actual);
     }
 
 
@@ -74,9 +75,9 @@ public class StatsServiceTest {
         int[] sales = {8, 15, 13, 15, 17, 20, 19, 20, 7, 14, 14, 18};
 
         int expected = 7;
-        int actual = service.maxSalesMonths (sales);
+        int actual = service.maxSalesMonths(sales);
 
-        Assertions.assertEquals(expected,actual);
+        Assertions.assertEquals(expected, actual);
     }
 
 }

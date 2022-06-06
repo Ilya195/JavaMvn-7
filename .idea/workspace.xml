@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="654d960a-1962-46a3-b43c-9885c48dae4e" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/test/java/StatsServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/netology/javaqamvn7/services/StatsServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/netology/javaqamvn7/services/StatsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/netology/javaqamvn7/services/StatsService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/netology/javaqamvn7/services/StatsServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/netology/javaqamvn7/services/StatsServiceTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,14 +33,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_directory_selection": "C:/Users/я/IdeaProjects/javaqamvn7/src/test/java"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_directory_selection&quot;: &quot;C:/Users/я/IdeaProjects/javaqamvn7/src/test/java&quot;
   }
-}]]></component>
+}</component>
   <component name="RunAnythingCache">
     <option name="myCommands">
       <command value="mvn clean test" />
@@ -79,10 +81,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StatsServiceTest.getSumSales" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StatsServiceTest.getSumSales (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="javaqamvn7" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="StatsServiceTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.netology.javaqamvn7.services.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.netology.javaqamvn7.services" />
+      <option name="MAIN_CLASS_NAME" value="ru.netology.javaqamvn7.services.StatsServiceTest" />
       <option name="METHOD_NAME" value="getSumSales" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -102,10 +110,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.StatsServiceTest (1)" />
+        <item itemvalue="JUnit.StatsServiceTest.getSumSales (1)" />
         <item itemvalue="JUnit.StatsServiceTest.minSalesMonths" />
         <item itemvalue="JUnit.StatsServiceTest" />
         <item itemvalue="JUnit.StatsServiceTest.findSumUsingStream" />
-        <item itemvalue="JUnit.StatsServiceTest.getSumSales" />
       </list>
     </recent_temporary>
   </component>
@@ -136,8 +144,8 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/ru/netology/javaqamvn7/services/StatsService.java</url>
-          <line>54</line>
-          <option name="timeStamp" value="1" />
+          <line>6</line>
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
