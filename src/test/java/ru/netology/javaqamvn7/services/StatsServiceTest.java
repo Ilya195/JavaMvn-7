@@ -79,5 +79,4 @@ public class StatsServiceTest {
 
         Assertions.assertEquals(expected, actual);
     }
-
 }

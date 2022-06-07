@@ -35,7 +35,7 @@ public class StatsService {
         for (int element : sales)
             sum += element;
 
-        return sum;
+            return sum;
     }
 
 
@@ -50,11 +50,11 @@ public class StatsService {
 
 
     public int minSalesMonths(int[] sales) {
-        int arraySaleMonth = 15;
+        int middle = findSumUsingStream(sales);
         int months = 0;
         int month = 1;
         for (long sale : sales) {
-            if (sale < arraySaleMonth) {
+            if (sale < middle) {
                 months += month;
             }
         }
@@ -63,11 +63,11 @@ public class StatsService {
 
 
     public int maxSalesMonths(int[] sales) {
-        int arraySaleMonth = 15;
+        int middle = findSumUsingStream(sales);
         int months = 0;
         int month = 1;
         for (long sale : sales) {
-            if (sale >= arraySaleMonth) {
+            if (sale >= middle) {
                 months += month;
             }
         }
