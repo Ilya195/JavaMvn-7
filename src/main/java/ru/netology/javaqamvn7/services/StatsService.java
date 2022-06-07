@@ -32,10 +32,10 @@ public class StatsService {
     public int getSumSales(int[] sales) {
         int array[] = sales;
         int sum = 0;
-        for (int element : sales)
+        for (int element : sales) {
             sum += element;
-
-            return sum;
+        }
+        return sum;
     }
 
 
@@ -47,7 +47,6 @@ public class StatsService {
 
         return average;
     }
-
 
     public int minSalesMonths(int[] sales) {
         int middle = findSumUsingStream(sales);
